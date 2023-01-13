@@ -1,6 +1,6 @@
  # <img src="https://imgur.com/X4HdxWx.png"  width="60px" align="center" alt="Explorer logo"> Jornada (Explorer - RocketSeat)
  ### ★ Repositório destinado a entregar todos os  meus desafios e resoluções do curso Explorer.
- ##### :rocket: Esse Repositório sempre sera atualizado conforme minha evolução no curso, sinta-se a vontade para retornar e dar uma espiada nos updates. :rocket:
+ ###### :rocket: Esse Repositório sempre sera atualizado conforme minha evolução no curso, sinta-se a vontade para retornar e dar uma espiada nos updates. :rocket:
  
  
  # <br>:eyeglasses: Desafios do Explorer
@@ -14,7 +14,7 @@
  ```diff
   [Introdução ao HTML e CSS]
  ```
-  Nessa introdução do HTML e CSS aprendemos a como construir um código com tags semânticas e estrutura seguindo boas práticas. aprendemos sobre o conceito Box Model do CSS, um bom aprofundamento na ferramenta DevTools. Uma breve introdução sobre a ferramenta Figma para podermos iniciar e estruturar nosso projeto, adicionando fontes e cores personalizadas, alem de entendermos como posicionar e espaçar os elementos.
+  Nessa módulo do HTML e CSS aprendemos a como construir um código com tags semânticas e estrutura seguindo boas práticas. aprendemos sobre o conceito Box Model do CSS, um bom aprofundamento na ferramenta DevTools. Uma breve introdução sobre a ferramenta Figma para podermos iniciar e estruturar nosso projeto, adicionando fontes e cores personalizadas, alem de entendermos como posicionar e espaçar os elementos.
 
   :white_check_mark:[Desafio: Recrianto Layout](https://recriando-layout-stage2.netlify.app/)<br>
   
@@ -31,4 +31,15 @@
  ```diff
   [Introdução à programação, lógica e algoritmos com JavaScript]
  ```
+ Neste módulo desenvolvemos usando: Variáveis, operadores matemáticos, tipos de dados no JavaScript, operadores comparativos, estruturas de repetição e condicionais, Arrays e aprenderemos sobre funções no JavaScript e como utilizá-las.
+ ###### :rocket: Desafios de JavaScript estarão no proximo módulo. 
+ 
+ ```diff
+ [Avançando no JavaScript]
+ ```
+ Neste módulo aprendemos sobre: Como manipular o navegador utilizando a DOM, funções callbacks, recursividade, princípios do Clean Code, ES6 Modules, padrão Factory, injeção de dependências, refatoração de código e muito mais, junto dos ensinamentos do stage passado.
+ 
+ :white_check_mark:[Desafio: Jogo da Adivinhação](https://jogo-da-adivinhacao-stage5.netlify.app/)<br>
+ :white_check_mark:[Desafio: Jogo da Sorte](https://jogo-do-biscoito.netlify.app/)<br>
+ 
  **Coming Soon...**
