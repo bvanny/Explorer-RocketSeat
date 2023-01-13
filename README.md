@@ -14,7 +14,7 @@
  ```diff
   [Introdução ao HTML e CSS]
  ```
-  Nessa módulo do HTML e CSS aprendemos a como construir um código com tags semânticas e estrutura seguindo boas práticas. aprendemos sobre o conceito Box Model do CSS, um bom aprofundamento na ferramenta DevTools. Uma breve introdução sobre a ferramenta Figma para podermos iniciar e estruturar nosso projeto, adicionando fontes e cores personalizadas, alem de entendermos como posicionar e espaçar os elementos.
+  Neste módulo do HTML e CSS aprendemos a como construir um código com tags semânticas e estrutura seguindo boas práticas. aprendemos sobre o conceito Box Model do CSS, um bom aprofundamento na ferramenta DevTools. Uma breve introdução sobre a ferramenta Figma para podermos iniciar e estruturar nosso projeto, adicionando fontes e cores personalizadas, alem de entendermos como posicionar e espaçar os elementos.
 
   :white_check_mark:[Desafio: Recrianto Layout](https://recriando-layout-stage2.netlify.app/)<br>
   
