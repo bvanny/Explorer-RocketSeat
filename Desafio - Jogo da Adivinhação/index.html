@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo da Adivinhação</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@700&display=swap" rel="stylesheet">
+  <script src="./main.js" defer></script>
+</head>
+<body>
+  
+  <main>
+    <div class="screen1">
+      <div class="title">
+        <img src="./assets/img1.svg">
+        <h1>Jogo da Advinhação</h1>
+        <img src="./assets/img2.svg">
+      </div>
+
+      <p><span>Adivinhe o número entre 1 e 10</span></p>
+
+      <form>
+        <div class="input-wrapper">
+          <label for="inputNumber">Digite o número escolhido</label>
+          <input id="inputNumber"   
+            type = "number"
+            maxlength = "2" placeholder="0" type="number">
+          <button id="btnTry" type="submit">Tentar</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="screen2 hide">
+      <div class="title">
+        <img src="./assets/img1.svg">
+        <h1>Jogo da Advinhação</h1>
+        <img src="./assets/img2.svg">
+      </div>
+
+      <p><span>Acertou em 3 tentativas</span></p>
+
+      <button id="btnReset" type="submit">Jogar Novamente</button>
+    </div>
+  </main>
+    
+</body>
+</html>
