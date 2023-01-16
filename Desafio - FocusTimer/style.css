@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #323238;
+  --seconds-color: #fff;
+  --bg-color: #E1E1E6;
+  --body-color: #fff;
+  --btn-Disabled: #E1E1E6;
+
+
+  /*Nature*/
+  --color-firstNature: #00ff87;
+  --color-secondNature: #fff;
+
+  --color-firstRain: #60efff;
+  --color-secondRain: #fff;
+
+  --color-firstHouse: #f7ba2c;
+  --color-secondHouse: #fff;
+
+  --color-firstFire: #f9b16e;
+  --color-secondFire: #fff;
+
+
+
+
+  font-size: 62.5%;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--body-color);
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 88.1rem;
+}
+
+#timerContent {
+  display: grid;
+  place-items: center;
+}
+
+#timerContent div + div {
+  margin-top: 2.2rem;
+}
+
+
+#timer {
+  display: flex;
+  color: var(--primary-color);
+  font-size: clamp(6rem, 8.6rem + 6vw, 12.6rem);
+}
+
+#controls {
+  display: flex;
+  gap: 4rem;
+}
+
+#soundsContent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.2rem;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition:  .3s;
+}
+
+button:hover {
+  transform: scale(0.9);
+}
+
+#controls button svg { 
+  width: clamp(3rem, 2rem + 4vw, 4.8rem);
+}
+
+#soundsContent button svg {
+  width: clamp(6rem, 8.6rem + 6vw, 12.6rem);
+}
+
+.btnColorDisabled svg path {
+  fill: var(--btn-Disabled);
+}
+
+
+
+
+
+
+@media (max-width: 950px) {
+  main {
+    min-width: 68.1rem;
+  }
+}
+
+@media (max-width:720px ) {
+  main {
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+}
+
+
+
+
+/*Animations-colors*/
+
+
+.activeNature svg path:nth-child(1) {
+  fill: var(--color-firstNature);
+}
+.activeNature svg path:nth-child(2) {
+  fill: var(--color-secondNature);
+}
+
+
+
+
+.activeRain svg path:nth-child(1) {
+  fill: var(--color-firstRain);
+}
+.activeRain svg path:nth-child(2) {
+  fill: var(--color-secondRain);
+
+}
+
+
+
+.activeHouse svg path:nth-child(1) {
+  fill: var(--color-firstHouse);
+}
+.activeHouse svg path:nth-child(2) {
+  fill: var(--color-secondHouse);
+}
+
+
+.activeFire svg path:nth-child(1) {
+  fill: var(--color-firstFire);
+}
+.activeFire svg path:nth-child(2) {
+  fill: var(--color-secondFire);
+}
+
