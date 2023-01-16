@@ -41,6 +41,7 @@
  
  :white_check_mark:[Desafio: Jogo da Adivinhação](https://jogo-da-adivinhacao-stage5.netlify.app/)<br>
  :white_check_mark:[Desafio: Jogo da Sorte](https://jogo-do-biscoito.netlify.app/)<br>
+ :white_check_mark:[Desafio: Focus Timer](https://focustimer-desafio-stage05.netlify.app/)<br>
  
  
  **Coming Soon...**
