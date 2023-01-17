@@ -44,7 +44,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-width: 88.1rem;
+  width: min(88rem, 90vw);
 }
 
 #timerContent {
@@ -157,7 +157,7 @@ button input[type='range']::-webkit-slider-thumb {
 
 @media (max-width: 950px) {
   main {
-    min-width: 68.1rem;
+    
   }
 }
 
