@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-image: url(./assets/background-home.png);
+  background-size: cover;
+  color: #E1E1E6;
+  min-height: 100vh;
+}
+
+
+
+nav .menu .links {
+  display: flex;
+  gap: 4.2rem;
+  align-items: center;
+  padding: 4rem 7.2rem;
+  position: relative;
+  z-index: 9999;
+}
+
+nav .menu .links a {
+  text-decoration: none;
+  color:#C4C4CC;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.1rem;
+}
+
+nav .menu .links a:hover {
+  color: #fff;
+}
+
+
+
+.menuButton {
+  display: none;
+}
+
+
+
+/*Home*/
+
+.container.home {
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  gap: 2.4rem;
+}
+
+.container.home h1 {
+  font-size: 4.8rem;
+  font-weight: bold;
+  line-height: 125%;
+  text-align: center;
+}
+
+.container.home a {
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #C4C4CC;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 1.2rem 3.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .2s;
+  text-decoration: none;
+}
+
+.container.home a:hover {
+  background-color: #fff;
+  color: #02799D;
+}
+
+
+/*Universe*/
+
+/*Exploration*/
+
+.container.universe,
+.container.exploration {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10rem;
+  margin-top: 6.3rem;
+  gap: 1.6rem;
+}
+
+.container.universe h2,
+.container.exploration h2 {
+  font-size: 4.8rem;
+  font-weight: bold;
+  line-height: 125%;
+}
+
+.container.universe p,
+.container.exploration p {
+  font-size: 1.8rem;
+  max-width: 58.8rem;
+  line-height: 160%;
+  font-weight: 400;
+  color: #E1E1E6;
+}
+
+
+
+
+/*Media Queries*/
+
+@media (max-width:740px) {
+
+  nav .menu {
+    justify-content: center;
+    background-color: rgba(9, 0, 51, 0.952);
+    transform: translateY(-100%);
+    transition: .3s;
+    position: absolute;
+    width: 100%;
+  }
+
+  nav .menu .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .menuButton {
+    display: flex;
+    position: absolute;
+    justify-content: end;
+    padding: 2rem;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    cursor: pointer;
+    transition: .2s;
+  }
+
+  .menu.hide {
+    transform: translateY(0);
+    position: absolute;
+    z-index: 99;
+  }
+
+  .menuButton:hover {
+    transform: scale(0.9);
+  }
+
+
+  .container.universe,
+  .container.exploration {
+    display: grid;
+    height: 100vh;
+    place-content: center;
+    margin: 0;
+    padding: 0 3rem;
+  }
+
+ 
+}
