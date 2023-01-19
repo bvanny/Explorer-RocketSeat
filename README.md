@@ -44,4 +44,12 @@
  :white_check_mark:[Desafio: Focus Timer](https://focustimer-desafio-stage05.netlify.app/)<br>
  :white_check_mark:[Desafio: Focus Timer - DarkMode](https://focustimer-darkmode-desafio-stage05.netlify.app/)<br>
  
+  ```diff
+ [Javascript antes do framework]
+ ```
+ Neste módulo aprendemos sobre Conceitos de SPA (Single Page Application), trabalhamos com eventos no JavaScript, assincronismo, promises, conceitos de POO (Programação Orientada a Objetos) como classes, herança e polimorfismo.
+ Também tratamos conceitos sobre imutabilidade, erros da aplicação utilizando métodos try, catch e throw, trabalhamos com localStorage, alem de consumirmos API do GitHub.
+ 
+  :white_check_mark:[Desafio: SPA Universe](https://spa-universe-stage06.netlify.app/)<br>
+ 
  **Coming Soon...**
