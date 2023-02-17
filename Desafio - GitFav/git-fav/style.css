@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --placeHolder: #7C7C8A;
+  --primary-color: #06181C;
+  --primary-color-bold: rgba(6, 22, 27, 0.5);
+  --second-color: #092D38;
+  --button: #065E7C;
+  --text-color: #E1E1E6;
+  --text-color2: #4E5455;
+  --border: #4A808C;
+  --remove :#F75A68;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #000;
+  color: #fff;
+}
+
+body * {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+#app {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 11rem auto;
+  width: 100%;
+}
+
+header img {
+  width: 18.7rem;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px; 
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+
+.search input {
+  font-size: 1.6rem;
+  color: var(--placeHolder);
+  padding: 1.6rem;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 5px;
+  width: 46.2rem;
+}
+
+.search button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--button);
+  color: #fff;
+  padding: 1.2rem 3.2rem;
+  gap: .8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  transition: background 300ms;
+  cursor: pointer;
+}
+
+.search button:hover {
+  background-color: #fff;
+  color: var(--button);
+}
+
+.search button:hover svg path {
+  fill: var(--button);
+}
+
+
+table {
+  display: block;
+  max-height: 376px;
+  overflow-y:auto;
+  border-collapse: collapse;
+  border-radius: 12px;
+}
+
+table::-webkit-scrollbar {
+  width: 6px;  
+}
+
+
+table::-webkit-scrollbar-track {
+  background: transparent;        /* color of the tracking area */
+}
+
+
+table::-webkit-scrollbar-thumb {
+  background-color: var(--button);    /* color of the scroll thumb */
+  border-radius: 5px;       /* roundness of the scroll thumb */
+}
+
+table * {
+  font-size: 2rem;
+  color: var(--text-color);
+  width: 100%;
+}
+
+table thead {
+  position: sticky;
+  top: 0;
+}
+
+table th {
+  background-color: var(--second-color);
+  text-align: left;
+  padding: 1.6rem 4rem;
+}
+
+.border {
+  border:1px solid var(--border);
+  border-radius: 12px;
+}
+
+
+
+
+table tr:nth-child(even) {
+  background: var(--primary-color);
+  border-bottom: 1px solid var(--border);
+}
+
+table tr:nth-child(odd) {
+  background: var(--primary-color-bold);
+  border-bottom: 1px solid var(--button);
+}
+
+
+table td {
+  padding: 2.4rem 4rem;
+  text-align: left;
+}
+
+td.user {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+
+td.user img {
+  width: 5.6rem;
+  height: 5.6rem;
+
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+td.user a {
+  text-decoration: none;
+  line-height: 160%;
+}
+
+td.user a p {
+  font-weight: bold;
+}
+
+td .remove {
+  background: none;
+  border: none;
+
+  color: var(--remove);
+
+  cursor: pointer;
+}
+
+
+
+.ntUser {
+  display: flex;
+  height: 30rem;
+}
+
+.ntUser h3 {
+  font-size: 4rem;
+  color: var(--text-color2);
+  width:fit-content
+}
+
+.ntUser tr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ntUser td {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.ntUser svg {
+  width:fit-content
+}
+
+.displayN {
+  display: none;
+}
+
+
+
+
+@media (max-width: 1024px) {
+  body {
+    height: 100vh;
+  }
+
+  #app {
+    display: grid;
+    place-content: center;
+    margin: 0;
+    width: 100%
+  }
+
+  table {
+    display: block;
+  }
+
+  .border {
+    border: 2px solid var(--border);
+  }
+
+  .search input {
+    width: 20rem;
+  }
+}
+
+@media (max-width: 860px) {
+  header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 11rem auto;
+    width: 100%;
+    gap: 2rem;
+  }
+
+  header div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: initial;
+  }
+
+  header .search input {
+    width: 30rem;
+  }
+
+  table {
+    display: block;
+  }
+
+  table * {
+    font-size: 1.6rem;
+  }
+
+  table td {
+    padding: 2.4rem 4rem;
+  }
+  
+  thead {
+    display: flex;
+  }
+  
+  thead tr {
+    display: flex;
+  }
+
+  td.user {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+
+@media (max-width: 656px) {
+  #app {
+    display: block;
+  }
+
+  table {
+    display: block;
+  }
+
+  table thead,
+  table tbody,
+  thead tr {
+    display: contents;
+  }
+
+  .ntUse td {
+    gap: 2rem;
+  }
+
+  .ntUser h3 {
+    font-size: 2rem;
+  }
+}
