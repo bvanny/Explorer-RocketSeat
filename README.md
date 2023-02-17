@@ -51,5 +51,6 @@
  Também tratamos conceitos sobre imutabilidade, erros da aplicação utilizando métodos try, catch e throw, trabalhamos com localStorage, alem de consumirmos API do GitHub.
  
   :white_check_mark:[Desafio: SPA Universe](https://spa-universe-stage06.netlify.app/)<br>
+  :white_check_mark:[Desafio: GitFav](https://git-fav-explorer-bvanny.netlify.app//)<br>
  
  **Coming Soon...**
