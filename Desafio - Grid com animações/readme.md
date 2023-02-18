@@ -1,16 +1,17 @@
-<h1 align='center'>
-  :shaved_ice: Space Cream
-</h1>
-
-<div display="flex" align="center">
-<img width="20%" src="https://i.imgur.com/UHAXsgK.png"/>
-  <img width="69.5%" src="https://i.imgur.com/AZxGKRm.png"/>
-</div>
-
-## 📃 About the project
+# 📃 About the project
 ###### Project developed in the course Explorer.
 
 The Icecream project is a responsive application for mobile phones (smartphones, tablets) and the web.
+
+
+<h1 align='start'>
+  :shaved_ice: Space Cream
+</h1>
+
+<div display="flex" align="start">
+<img width="20%" src="https://i.imgur.com/UHAXsgK.png"/>
+  <img width="69.5%" src="https://i.imgur.com/AZxGKRm.png"/>
+</div>
 
 ## 🚀 Technologies
 
