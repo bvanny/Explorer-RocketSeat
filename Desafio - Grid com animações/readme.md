@@ -7,12 +7,12 @@
   <img width="77%" src="https://i.imgur.com/AZxGKRm.png"/>
 </div>
 
-## 📃 Sobre o projeto
-###### Projeto desenvolvido no curso Explorer.
+## 📃 About the project
+###### Project developed in the course Explorer.
 
-O projeto IceCream é uma aplicação estatica com responsividade tanto para Mobile(SmarthPhones, Tablets) quanto para Web.
+The Icecream project is a responsive application for mobile phones (smartphones, tablets) and the web.
 
-## 🚀 Tecnologias
+## 🚀 Technologies
 
 ### Frontend
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
@@ -22,5 +22,5 @@ O projeto IceCream é uma aplicação estatica com responsividade tanto para Mob
 
 - [IceCream](https://responsividade-grid-stage3.netlify.app/)
 
-## 💛 Contato
+## 💛 Contact
 bruno_geovanny@outlook.com
