@@ -7,7 +7,8 @@ The Icecream project is a responsive application for mobile phones (smartphones,
   :shaved_ice: Space Cream
 </h1>
 
-<div display="flex" align="center">
+<div display="flex" align="center">]
+
 <img width="20%" src="https://i.imgur.com/UHAXsgK.png"/>
   <img width="77%" src="https://i.imgur.com/AZxGKRm.png"/>
 </div>
