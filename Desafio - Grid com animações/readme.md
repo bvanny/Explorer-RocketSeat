@@ -1,3 +1,8 @@
+## 📃 About the project
+###### Project developed in the course Explorer.
+
+The Icecream project is a responsive application for mobile phones (smartphones, tablets) and the web.
+
 <h1 align='center'>
   :shaved_ice: Space Cream
 </h1>
@@ -7,10 +12,6 @@
   <img width="77%" src="https://i.imgur.com/AZxGKRm.png"/>
 </div>
 
-## 📃 About the project
-###### Project developed in the course Explorer.
-
-The Icecream project is a responsive application for mobile phones (smartphones, tablets) and the web.
 
 ## 🚀 Technologies
 
