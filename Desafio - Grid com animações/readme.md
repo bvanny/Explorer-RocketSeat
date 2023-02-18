@@ -4,7 +4,7 @@
 
 <div display="flex" align="center">
 <img width="20%" src="https://i.imgur.com/UHAXsgK.png"/>
-  <img width="77%" src="https://i.imgur.com/AZxGKRm.png"/>
+  <img width="69.5%" src="https://i.imgur.com/AZxGKRm.png"/>
 </div>
 
 ## 📃 About the project
