@@ -58,4 +58,8 @@ HTML, CSS, JavaScript, Git & GitHub, Node.js, NPM (Gerenciador de pacotes), SQL,
   :white_check_mark:[Desafio: SPA Universe](https://spa-universe-stage06.netlify.app/)<br>
   :white_check_mark:[Desafio: GitFav](https://git-fav-explorer-bvanny.netlify.app//)<br>
  
+## Backend
+
+Neste módulo estudamos sobre: O que é o Node.js como ele funciona e suas vantagens. Construimos uma API completa utilizando Node.js e Express. Utilizamos do Insomnia para cadastrar nossas rotas e verificar os status codes das mesmas. Criamso também um banco de dados utilizando SQLite, alem de manipularmos o nosso DB utilizando a ferramenta Beekeper Studio juntamente com o Query Builder Knex.js.
+ 
  **Coming Soon...**
