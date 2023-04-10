@@ -69,7 +69,7 @@ Neste módulo estudamos sobre: O que é o Node.js como ele funciona e suas vanta
 
 Neste módulo foi apresentado o ReactJS e construimos o nosso front-end do projeto RocketMovies/RocketNotes. Além disso, aprendemos: Utilizar o Vite, estruturar arquivos e pastas, estilizar o projeto utilizando styled-components, navegação com React Router e muito mais. 
 
-  :white_check_mark:[Desafio: RocketMovies Front](https://github.com/bvanny/RocketMovie-Desafio-Curso)<br>
+  :white_check_mark:[Desafio: RocketMovies Front](https://github.com/bvanny/Explorer-RocketSeat/tree/main/Desafio-RocketMovies-Front)<br>
   
   
 ## API Restful
