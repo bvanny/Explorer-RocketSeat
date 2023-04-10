@@ -64,6 +64,20 @@ Neste módulo estudamos sobre: O que é o Node.js como ele funciona e suas vanta
  
   :white_check_mark:[Desafio: Aplicação em Node](https://github.com/bvanny/Explorer-RocketSeat/tree/main/Desafio%20-%20Aplica%C3%A7%C3%A3o%20em%20Node)<br>
   :white_check_mark:[Desafio: RocketMovies Back](https://github.com/bvanny/Explorer-RocketSeat/tree/main/Desafio-RocketMovies-Back)<br>
+  
+## Frontend
+
+Neste módulo foi apresentado o ReactJS e construimos o nosso front-end do projeto RocketMovies/RocketNotes. Além disso, aprendemos: Utilizar o Vite, estruturar arquivos e pastas, estilizar o projeto utilizando styled-components, navegação com React Router e muito mais. 
+
   :white_check_mark:[Desafio: RocketMovies Front](https://github.com/bvanny/RocketMovie-Desafio-Curso)<br>
+  
+  
+## API Restful
+
+Neste módulo fizemos a integração entre o back-end e o front-end da aplicação. O módulo foi dividido em três partes, a primeira parte implementamos a autenticação de usuários no back-end, na segunda etapa fizemos o upload de imagens e na última parte aplicamos todas as funcionalidades para que a integração entre o front-end e back-end funcione corretamente.
+
+  :white_check_mark:[Desafio: RocketMovies](https://github.com/bvanny/RocketMovie-Desafio-Curso)<br>
+  
+  
  
  **Coming Soon...**
