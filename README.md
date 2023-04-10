@@ -62,7 +62,8 @@ HTML, CSS, JavaScript, Git & GitHub, Node.js, NPM (Gerenciador de pacotes), SQL,
 
 Neste módulo estudamos sobre: O que é o Node.js como ele funciona e suas vantagens. Construimos uma API completa utilizando Node.js e Express. Utilizamos do Insomnia para cadastrar nossas rotas e verificar os status codes das mesmas. Criamso também um banco de dados utilizando SQLite, alem de manipularmos o nosso DB utilizando a ferramenta Beekeper Studio juntamente com o Query Builder Knex.js.
  
-  :white_check_mark:[Desafio: Aplicação em Node](https://github.com/bvanny/Explorer-RocketSeat/tree/main/Desafio%20-%20Aplica%C3%A7%C3%A3o%20em%20Node)
- 
+  :white_check_mark:[Desafio: Aplicação em Node](https://github.com/bvanny/Explorer-RocketSeat/tree/main/Desafio%20-%20Aplica%C3%A7%C3%A3o%20em%20Node)<br>
+  :white_check_mark:[Desafio: RocketMovies Back](https://github.com/bvanny/Explorer-RocketSeat/tree/main/Desafio-RocketMovies-Back)<br>
+  :white_check_mark:[Desafio: RocketMovies Front](https://github.com/bvanny/RocketMovie-Desafio-Curso)<br>
  
  **Coming Soon...**
