@@ -78,6 +78,13 @@ Neste módulo fizemos a integração entre o back-end e o front-end da aplicaç�
 
   :white_check_mark:[Desafio: RocketMovies](https://github.com/bvanny/RocketMovie-Desafio-Curso)<br>
   
-  
- 
- **Coming Soon...**
+## Final Challenge
+
+Como um aluno do curso Explorer, mergulhei profundamente no mundo do desenvolvimento web, adquirindo conhecimentos essenciais e práticos em diversas áreas. Ao longo do programa, explorei linguagens como JavaScript, HTML e CSS, desenvolvendo habilidades sólidas para criar interfaces interativas e visualmente atraentes.
+
+Aprofundei-me em ferramentas e tecnologias avançadas, como React, NPM, Node, Express, Axios e SQLite, entre outras. Aprendi a utilizar o React para construir componentes reutilizáveis e otimizar o desempenho das aplicações. Além disso, dominei o gerenciamento de pacotes com o NPM e adquiri experiência na construção de APIs robustas e eficientes com o Node e o Express.
+
+Com essas habilidades adquiridas, pude criar o foodExplorer, um cardápio digital que oferece uma experiência gastronômica envolvente e moderna. Por meio do uso de técnicas avançadas de programação, como a integração de banco de dados SQLite, consegui fornecer um sistema eficiente e seguro para gerenciar os pratos, seus detalhes e a interação com os usuários.
+
+:white_check_mark:[Desafio Final: Front-End](https://github.com/bvanny/FoodExplorer-FinalChallenge-Explorer)<br>
+:white_check_mark:[Desafio Final: Back-End](https://github.com/bvanny/BackEnd-FinalChallenge-Explorer)<br>
